@@ -1,0 +1,125 @@
+/* LabourDetails.css */
+.labour-details-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.labour-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.labour-name {
+    font-size: 2rem;
+    color: #00796b;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.labour-info {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.labour-info p {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.labour-info strong {
+    color: #00796b;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .labour-details-container {
+        padding: 15px;
+    }
+    .labour-name {
+        font-size: 1.8rem;
+    }
+    .labour-info p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+/* LabourDetails.css
+.labour-details-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loading-container, .error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loading-container p, .error-container p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.labour-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.labour-name {
+    font-size: 2rem;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.labour-info {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.labour-info p {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.labour-info strong {
+    color: #00796b;
+}
+
+/* Responsive Design 
+@media (max-width: 768px) {
+    .labour-details-container {
+        padding: 15px;
+    }
+    .labour-name {
+        font-size: 1.8rem;
+    }
+    .labour-info p {
+        font-size: 1rem;
+    }
+} */
